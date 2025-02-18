@@ -1,5 +1,5 @@
 {
-  "name": "plab_user_was",
+  "name": "user_was",
   "version": "1.0.0",
   "description": "사용자페이지 백엔드",
   "main": "app.js",
