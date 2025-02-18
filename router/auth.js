@@ -56,7 +56,5 @@ router.post("/find-password", authController.sendResetPasswordEmail);
 // 비밀번호 변경
 router.post("/update-password", isAuth, authController.correctPassword);
 
-// 매니저 설정 페이지 정보
-router.post("/manager-info", authController.getManagerInfo);
 
 export default router;
